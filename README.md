@@ -4,6 +4,14 @@ A pixel-perfect frontend implementation of the **PartyWitty React Assessment**, 
 
 This project focuses on accurate UI implementation, reusable components, navigation flow, and clean frontend architecture.
 
+## 🔗 Live Demo
+
+🚀 Live Website: [View Project](https://partywitty-peach.vercel.app/feed)
+
+📂 GitHub Repository: [View Code](https://github.com/Dhanyaja/partywitty)
+
+---
+
 ---
 
 ## 🚀 Project Overview
