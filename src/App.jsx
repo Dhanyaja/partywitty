@@ -14,6 +14,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Navigate to="/feed" replace />} />
         <Route path="/event-listing" element={<EventListing />} />
         <Route path="/feed" element={<FeedBids />} />
         <Route path="/buy-drinks" element={<BuyDrinks />} />
