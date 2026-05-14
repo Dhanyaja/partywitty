@@ -24,7 +24,6 @@ const App = () => {
         <Route path="/face-verification" element={<FaceVerification />} />
         <Route path="/verification-success" element={<VerificationSuccess />} />
         <Route path="/dashboard" element={<ShowVibe />} />
-        {/* <Route path="/go-tonight" element={<GoTonight />} /> */}
       </Routes>
     </BrowserRouter>
   )

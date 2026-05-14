@@ -41,13 +41,11 @@ const FirstMovePanel = () => {
         <div className="w-[355px] rounded-[28px] bg-[#FCF7FA] px-7 py-8">
             {/* Profile */}
             <div className="flex flex-col items-center">
-                {/* <div className="h-[72px] w-[72px] overflow-hidden rounded-full border-[3px] border-[#695BFF]"> */}
                     <img
                         src={alen}
                         alt="profile"
                         className="h-[200px] w-[200px] object-cover"
                     />
-                {/* </div> */}
 
                 <h2 className="mt-5 text-[28px] font-bold text-[#181818]">
                     Make Your First Move

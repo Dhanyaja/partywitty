@@ -19,7 +19,6 @@ const GoTonight = ({ onClose }) => {
           onClick={onClose}
           className="absolute right-[20px] top-[18px] flex h-[34px] w-[34px] items-center justify-center rounded-full bg-[#F1ECFF]"
         >
-          {/* <X size={18} className="text-[#7566FF]" /> */}
           <img src={close} alt="" />
 
 

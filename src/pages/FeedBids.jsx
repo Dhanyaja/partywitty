@@ -1,25 +1,3 @@
-// import FeedSidebar from "../components/FeedSidebar";
-// import FirstMovePanel from "../components/FirstMovePanel";
-// import ProfileCard from "../components/ProfileCard";
-// import Sidebar from "../components/Sidebar";
-
-// const FeedPage = () => {
-//   return (
-//     <div className="min-h-screen bg-[#F8F5EF] flex">
-//       <Sidebar variant="feed" />
-
-//       <main className="flex-1 px-12 py-8">
-//         <div className="flex items-start justify-center gap-20">
-//           <ProfileCard />
-//           <FirstMovePanel />
-//         </div>
-//       </main>
-//     </div>
-//   );
-// };
-
-// export default FeedPage;
-
 import { useState } from "react";
 import FirstMovePanel from "../components/FirstMovePanel";
 import ProfileCard from "../components/ProfileCard";
