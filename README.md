@@ -6,7 +6,7 @@ This project focuses on accurate UI implementation, reusable components, navigat
 
 ## 🔗 Live Demo
 
-🚀 Live Website: [View Project](https://partywitty-peach.vercel.app/feed)
+🚀 Live Website: [View Project](https://partywitty-peach.vercel.app/)
 
 📂 GitHub Repository: [View Code](https://github.com/Dhanyaja/partywitty)
 
