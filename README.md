@@ -25,12 +25,14 @@ The project follows the exact flow provided in the design assessment.
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **React.js**
 - **Vite**
 - **Tailwind CSS**
 - **React Router DOM**
 
 ### UI / Styling
+
 - Responsive layout techniques (desktop-first)
 - Reusable components
 - Custom gradients
@@ -42,13 +44,16 @@ The project follows the exact flow provided in the design assessment.
 ## ✨ Features Implemented
 
 ### ✅ Pixel-Perfect UI
+
 - Implemented UI based on provided Figma design
 - Accurate spacing, typography, colors, and layout
 
 ### ✅ Multi-Page Navigation Flow
+
 Implemented complete user journey using **React Router**.
 
 ### ✅ Reusable Components
+
 - Sidebar
 - Feed Cards
 - Buttons
@@ -58,11 +63,13 @@ Implemented complete user journey using **React Router**.
 - Reusable Layout Sections
 
 ### ✅ Modern Styling
+
 - Tailwind utility-first styling
 - Clean gradients and shadows
 - Smooth hover effects
 
 ### ✅ Modal-Based Verification Flow
+
 Custom verification journey with popup interfaces.
 
 ---
@@ -70,6 +77,7 @@ Custom verification journey with popup interfaces.
 ## 🔄 User Flow / Navigation
 
 ### 1. Feed Page (`/feed`)
+
 User lands on the main feed page.
 
 **Action:**  
@@ -78,6 +86,7 @@ Click **"Go Tonight"**
 ⬇
 
 ### 2. First Move Popup
+
 A modal opens allowing the user to make their move.
 
 **Action:**  
@@ -86,6 +95,7 @@ Click **"Make Your Move"**
 ⬇
 
 ### 3. Event Listing Page (`/event-listing`)
+
 User explores available party/event options.
 
 **Action:**  
@@ -94,6 +104,7 @@ Click any event card/image
 ⬇
 
 ### 4. Buy Drinks Page (`/buy-drinks`)
+
 User selects drinks and additional interactions.
 
 **Action:**  
@@ -102,6 +113,7 @@ Click **"Make The Move Now"**
 ⬇
 
 ### 5. Order Summary (`/order-summary`)
+
 Displays selected item summary and pricing.
 
 **Action:**  
@@ -110,6 +122,7 @@ Click **"Make The Move Now"**
 ⬇
 
 ### 6. Verification Page (`/verification`)
+
 User verification prompt appears.
 
 **Action:**  
@@ -118,6 +131,7 @@ Click **"Verify & Send Invite"**
 ⬇
 
 ### 7. Face Verification (`/face-verification`)
+
 Face scanning UI screen.
 
 **Action:**  
@@ -126,6 +140,7 @@ Click capture/photo button
 ⬇
 
 ### 8. Verification Success (`/verification-success`)
+
 Verification completion screen.
 
 **Action:**  
@@ -134,7 +149,72 @@ Click **"Go To Dashboard"**
 ⬇
 
 ### 9. Show Your Vibe (`/dashboard`)
+
 User uploads vibe/profile photos.
+
+---
+## 📸 Screenshots
+
+### Feed Page
+Main dashboard where users explore profiles.
+
+![Feed Page](./screenshots/feed.png)
+
+---
+
+### First Move Popup
+Popup shown after clicking **Go Tonight**.
+
+![First Move Popup](./screenshots/firstmove.png)
+
+---
+
+### Event Listing
+Explore available event options.
+
+![Event Listing](./screenshots/eventlisting.png)
+
+---
+
+### Buy Drinks
+Select drinks and interaction options.
+
+![Buy Drinks](./screenshots/buydrinks.png)
+
+---
+
+### Order Summary
+Review selected plan and pricing.
+
+![Order Summary](./screenshots/ordersummary.png)
+
+---
+
+### Verification Page
+Identity verification prompt.
+
+![Verification Page](./screenshots/verificationpng)
+
+---
+
+### Face Verification
+Face scan interface.
+
+![Face Verification](./screenshots/faceverification.png)
+
+---
+
+### Verification Success
+Successful verification state.
+
+![Verification Success](./screenshots/verificationsuccess.png)
+
+---
+
+### Show Your Vibe
+Upload vibe/profile photos.
+
+![Show Your Vibe](./screenshots/dashboard.png)
 
 ---
 
@@ -143,28 +223,54 @@ User uploads vibe/profile photos.
 ```bash
 src/
 │── assets/
-│   ├── images/
 │   ├── icons/
+│   ├── images/
+│   ├── logos/
 │
 │── components/
-│   ├── Sidebar
-│   ├── FeedCard
-│   ├── FirstMovePanel
-│   ├── DrinkCard
-│   ├── Buttons
+│   ├── AboutMe.jsx
+│   ├── BillDetails.jsx
+│   ├── BottomCTA.jsx
+│   ├── DrinkCard.jsx
+│   ├── DrinkGrid.jsx
+│   ├── EventCard.jsx
+│   ├── EventGrid.jsx
+│   ├── EventInfoCard.jsx
+│   ├── FeedSidebar.jsx
+│   ├── FirstMovePanel.jsx
+│   ├── GestureCard.jsx
+│   ├── GestureGrid.jsx
+│   ├── MoveNowButton.jsx
+│   ├── OrderCard.jsx
+│   ├── OrderHeader.jsx
+│   ├── ProfileCard.jsx
+│   ├── SearchBar.jsx
+│   ├── SelectedProfileCard.jsx
+│   ├── Sidebar.jsx
+│   ├── TermsCheckbox.jsx
+│   ├── TicketSection.jsx
+│   └── TopHeader.jsx
+│
+│── data/
+│   └── events.js
 │
 │── pages/
-│   ├── Feed
-│   ├── EventListing
-│   ├── BuyDrinks
-│   ├── OrderSummary
-│   ├── Verification
-│   ├── FaceVerification
-│   ├── VerificationSuccess
-│   ├── Dashboard
+│   ├── BuyDrinks.jsx
+│   ├── EventListing.jsx
+│   ├── FaceVerification.jsx
+│   ├── FeedBids.jsx
+│   ├── GoTonight.jsx
+│   ├── OrderSummary.jsx
+│   ├── ShowVibe.jsx
+│   ├── VerificationIntro.jsx
+│   └── VerificationSuccess.jsx
+│
+│── routes/
+│── styles/
 │
 │── App.jsx
 │── main.jsx
+│── index.css
 ```
 
 ---
@@ -174,13 +280,13 @@ src/
 Clone the repository:
 
 ```bash
-git clone <your-github-repo-link>
+git clone <https://github.com/Dhanyaja/partywitty>
 ```
 
 Navigate to project folder:
 
 ```bash
-cd partywitty-react-assessment
+cd partywitty
 ```
 
 Install dependencies:
