@@ -158,63 +158,63 @@ User uploads vibe/profile photos.
 ### Feed Page
 Main dashboard where users explore profiles.
 
-![Feed Page](./screenshots/feed.png)
+![Feed Page](./screenshots/feed.PNG)
 
 ---
 
 ### First Move Popup
 Popup shown after clicking **Go Tonight**.
 
-![First Move Popup](./screenshots/firstmove.png)
+![First Move Popup](./screenshots/firstmove.PNG)
 
 ---
 
 ### Event Listing
 Explore available event options.
 
-![Event Listing](./screenshots/eventlisting.png)
+![Event Listing](./screenshots/eventlisting.PNG)
 
 ---
 
 ### Buy Drinks
 Select drinks and interaction options.
 
-![Buy Drinks](./screenshots/buydrinks.png)
+![Buy Drinks](./screenshots/buydrinks.PNG)
 
 ---
 
 ### Order Summary
 Review selected plan and pricing.
 
-![Order Summary](./screenshots/ordersummary.png)
+![Order Summary](./screenshots/ordersummary.PNG)
 
 ---
 
 ### Verification Page
 Identity verification prompt.
 
-![Verification Page](./screenshots/verificationpng)
+![Verification Page](./screenshots/verification.PNG)
 
 ---
 
 ### Face Verification
 Face scan interface.
 
-![Face Verification](./screenshots/faceverification.png)
+![Face Verification](./screenshots/faceverification.PNG)
 
 ---
 
 ### Verification Success
 Successful verification state.
 
-![Verification Success](./screenshots/verificationsuccess.png)
+![Verification Success](./screenshots/verificationsuccess.PNG)
 
 ---
 
 ### Show Your Vibe
 Upload vibe/profile photos.
 
-![Show Your Vibe](./screenshots/dashboard.png)
+![Show Your Vibe](./screenshots/dashboard.PNG)
 
 ---
 
